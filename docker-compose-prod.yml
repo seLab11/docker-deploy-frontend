@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  frontend-new:
+    image: thanasmp/234-deploylab-frontend:latest
+    pull_policy: always
+    ports:
+      - "9999:80"
