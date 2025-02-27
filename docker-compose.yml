@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: thanasmp/234-deploylab-frontend:latest
+    restart: always
+    ports:
+      - "80:80"
